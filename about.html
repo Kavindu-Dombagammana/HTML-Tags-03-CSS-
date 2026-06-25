@@ -10,7 +10,7 @@
         background-color: blue;
         width: 200px;
         height: 100px;
-        padding: 25px;
+        padding: 25px 50px 65px 30px; /* padding order is Top Right Bottom Left*/
         color: white;
       }
       .example-1 {
@@ -19,6 +19,7 @@
         height: 100px;
         padding: 25px;
         color: white;
+        margin: 10px; /* Add a space from all the sides, can use margin-top,margin-left, margin-bottom,margin-right to specify which side you want margin to add onto*/
       }
       .example-2 {
         background-color: red;
@@ -26,6 +27,7 @@
         height: 100px;
         padding: 25px;
         color: white;
+        border: 2.5px solid black; /* Adds a border to the container, can use border-top,border-bottom etc to specify the location*/
       }
 
       #main-example {
@@ -34,7 +36,7 @@
       }
     </style>
   </head>
-  <body>
+  <body style="margin-left: 20px; margin-right: 20px;">
     <a href="index.html">Home</a>
     <!--Since Id is unique ID is used for  main containers and Classes used for sub containers-->
     <div id="main-example">
